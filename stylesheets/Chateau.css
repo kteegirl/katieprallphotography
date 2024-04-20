@@ -1,0 +1,527 @@
+@charset "UTF=8";
+/*CSS Document*/
+/*Created by Katie Craven 1-28-2024*/
+
+/*begin Assignment 10 form css*/
+
+form {
+	background-color: #4B7A8B;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #025762;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #025762;
+
+}
+input[type=select], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 10 px;
+  box-sizing: border-box;
+  border-color: #025762;
+
+}
+input[type=textarea], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #025762;
+}
+
+input[type=phone], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #025762;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #1AA5B5
+	  ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #025762;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #025762;
+	
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #4B7A8B;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+/*end assignment 10 form css*/
+
+
+.paragraph {
+	text-align: center;
+	text-wrap: wrap;
+	color:#E7DED9;
+	
+}
+nav a { 
+  display: inline;
+  margin: 5px;
+  margin-top: 5px;
+  background-color: #34404d;
+  text-align: center;
+  font-size: 1.1em;
+} 
+
+
+.grid-container {
+  grid-auto-columns: 200px;
+  grid-auto-rows: 200px;
+  justify-content: space-between;
+  background-color: #2196F3;
+}
+.item1 {
+  grid-column: 1 / 1;
+  width: 100%;
+}
+.item2 {
+  grid-column: 1 / 1;
+  width: 100%;
+}
+.item3 {
+  grid-column: 1 / 1;
+  width: 100%;
+}
+.item4 {
+  grid-column: 1 / 1;
+  width: 100%;
+}
+.item5 {
+  grid-column: 1 / 1;
+  width: 100%;
+}
+.item6 {
+  grid-column: 1 / 1;
+  width: 100%;
+
+}
+.item8 {
+  grid-column: 1 /2;
+  width: 100%;
+}
+.item9 {
+  grid-column: 1 / 2;
+  width: 100%;
+}
+
+
+body {
+    background-color:#86978B;
+    color:#E7DED9;
+    font-family: "sans-serif";
+      }
+
+main {
+    color:navy;
+    height: 100vh;
+    
+}
+
+header 
+    {
+     background-image: url("../images/kpplogo.png");
+     background-color:#86978B;
+	   background-repeat:no-repeat;
+	   background-position: right top;
+	   min-height:50px;
+}
+h2 {
+  text-align: center;
+}
+
+img {
+      width: 100%;
+      min-height: 50px;
+      text-align: center;
+     
+      }
+
+
+figure {
+        text-align: center;
+        min-height: 80px;
+        border-radius: 50%;
+      }
+
+figcaption {
+      
+        font-weight: bold;
+        text-align: center;
+        
+}
+footer {
+  text-align: center;
+}
+ footer.clear {
+    clear: both;
+  }
+
+
+/* unvisited link */
+a:link {
+  color: #f974d1;
+}
+
+/* visited link */
+a:visited {
+  color: rgba(0, 0, 0, 0.899);
+}
+
+/* mouse over link */
+a:hover {
+  color:rgba(245, 183, 132);
+}
+
+    /*classes start here*/
+.bullet_list {
+  background-color: aquamarine;
+  width: 100%;
+  min-height: 50px;
+  border: 5px solid green;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 30px;
+ 
+  
+    }
+.container {
+      background-color: #E7DED9;
+      border-radius: 10%;
+
+    }
+
+  div.container {
+      text-align: center;
+    }
+    
+    ul.myUL {
+      display: inline-block;
+      text-align: left;
+    }
+.bold {
+  font-weight: bold;
+  }
+
+.center_text {
+  text-align: center;
+    }
+
+.italics {
+  font-style: italic;
+    }
+    
+.figure {
+  text-align: center;
+  min-height: 80px;
+  border-radius: 50%;
+
+}
+
+/*flex box stuff starts here*/
+.flex-container {
+  display: flex;
+  background: DodgerBlue;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container-item  {
+  width: 200px;
+  margin: 10px;
+
+  
+}
+.flex-container-item-1 {
+  min-height: 100px;
+  
+}
+.flex-container-item-2 {
+  min-height: 100px;
+ 
+}
+.flex-conatiner-item-3 {
+  min-height: 100px;
+
+}
+/*flex box stuff ends here*/
+/*second flex box starts here*/
+.flex-container-sponsors {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container-item-sponsors  {
+  width: 200px;
+  margin: 10px;
+
+  
+}
+.flex-container-item-sponsors-1 {
+  min-height: 100px;
+}
+
+/*second flex box ends here*/
+/*third flex box stuff starts here*/
+.navcontainer {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  height: 10vh;
+
+}
+
+.flex-container-nav-item  {
+  width: 200px;
+  margin: 10px;
+  
+}
+
+/*third flex box ends here*/
+/*fourth div class starts here*/
+
+.main-wrapper {
+  height: 100vh;
+  display: flex;
+  overflow: scroll;
+  padding: 1em;
+}
+* {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  height: 100vh;
+}
+/*fourth div class ends here*/
+
+.image_circle
+    {
+      border-radius: 50%;
+      text-align: center;
+     }
+      
+#myHeader {
+      font-family:'Brush Script MT','cursive';
+      font-size: 4em;
+    }
+/*classes are here*/
+
+
+
+.dl_lists {
+  background-color: blueviolet;
+  width: 300px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.ol_lists {
+  background-color:coral;
+  clear:both;
+}
+
+.large_italics {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+@media screen and (min-width: 480px) {
+  
+  header {
+     background-image: url("../images/kpplogo.png");
+	   background-position: right top;
+	   min-height: 100px;
+     background-color: #86978B;
+  }
+  .navcontainer {
+      display: flex;
+      justify-content: left;
+      flex-direction: column;
+      height: 10vh;
+  
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-auto-columns: 200px;
+      grid-auto-rows: 200px;
+      min-height: 90vh;
+      grid-gap: 20px;
+      width: 100%;
+      justify-content: space-around;
+      background-color: #2196F3;
+  }
+  .item1 { 
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%; 
+  }
+  .item2 {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
+  }
+  .item3 {
+    grid-area: 1 / 3 / 2 / 4;
+    width: 100%;
+  }
+  .item4 {
+    grid-area: 2 / 1 / 3 / 2;
+    width: 100%;
+  }
+  .item5 {
+    grid-area: 2 / 2 / 3 / 3;
+    width: 100%;
+  }
+  .item6 {
+    grid-area: 2 / 3 / 3 / 4;
+    width: 100%;
+  }
+  
+   
+  }
+  .item8 {
+    grid-area: 3 / 3 / 3 / 1;
+    width: 100%;
+  
+  }
+  .item9 {
+    grid-area: 3 / 3 / 3 / 4;
+    width: 100%;
+   
+  }
+
+
+  body {
+
+    background-color: #86978B;
+    color: navy;
+    font-family: georgia;
+  }
+  h1 {
+    color: snow;
+  }
+  figure {
+      width: 100%;
+      min-height: 150px;
+  }
+  .bullet_list {
+    background-color: aquamarine;
+    width: 300px;
+    border: 5px solid green;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    clear:both
+}
+.dl_lists {
+  background-color: blueviolet;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  clear:both
+  
+}
+/* Create two equal columns that floats next to each other */
+.columnleft {
+  float: left;
+  width: 40%;
+  padding: 5px;
+  
+
+}
+
+.columnright {
+  float: right;
+  width: 50%;
+  padding: 5px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*example 
+.box {
+  background-color: bisque;
+  width: 300px;
+  margin: 50px;
+  border-width: 5px;
+  border-color:red;  
+  border-style: solid;
+  padding:
+*/
