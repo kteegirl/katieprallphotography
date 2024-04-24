@@ -301,7 +301,6 @@ a:hover {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -448,7 +447,7 @@ a:hover {
   body {
 
     background-color: #86978B;
-    color: navy;
+    color: white;
     font-family: georgia;
   }
   h1 {
