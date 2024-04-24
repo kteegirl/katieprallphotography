@@ -110,21 +110,19 @@ nav a {
   font-size: 1.1em;
 } 
 
-
-
 body {
     background-color: #4B7A8B;
     color: #B06E5D;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
 
+
 main {
    
-	background-color: #4B7A8B;
 	color: #B06E5D;
     height: 100vh;
     
-}
+
 
 header 
     {
@@ -168,6 +166,8 @@ footer {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+
 
 /****************************link stuff starts here ******************************/
 /* unvisited link */
@@ -339,7 +339,7 @@ ul {
 
 /****************************************media screen stuff starts heres*********************************************/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width : 480px ){
   
   form {
 	background-color: #D7BDA3;
@@ -419,6 +419,12 @@ ul {
     color: white;
     font-family: georgia;
   }
+	
+	main {
+   
+	color: #B06E5D;
+    height: 100vh;
+	}
   h1 {
     color: snow;
   }
