@@ -5,9 +5,11 @@
 /*begin Assignment 10 form css*/
 
 form {
-	background-color: #4B7A8B;
+	background-color: #D7BDA3;
+	color: #94421c;
 	padding: 10px;
 	font-family: sans-serif;
+	width: 50%;
 }
 
 input[type=text], select {
@@ -18,7 +20,7 @@ input[type=text], select {
   border: 2px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box;
-  border-color: #025762;
+  border-color: #94421c;
 }
 input[type=email], select {
   width: 100%;
@@ -28,7 +30,7 @@ input[type=email], select {
   border: 2px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box;
-  border-color: #025762;
+  border-color: #94421C;
 
 }
 input[type=select], select {
@@ -39,7 +41,8 @@ input[type=select], select {
   border: 2px solid #ccc;
   border-radius: 10 px;
   box-sizing: border-box;
-  border-color: #025762;
+  border-color: #94421C
+	  ;
 
 }
 input[type=textarea], select {
@@ -50,7 +53,7 @@ input[type=textarea], select {
   border: 2px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box;
-  border-color: #025762;
+  border-color: #94421C;
 }
 
 input[type=phone], select {
@@ -61,11 +64,11 @@ input[type=phone], select {
   border: 2px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box;
-  border-color: #025762;
+  border-color: #94421C;
 }
 input[type=submit] {
   width: 100%;
-  background-color: #1AA5B5
+  background-color: #94421C
 	  ;
   color: white;
   padding: 14px 20px;
@@ -73,12 +76,12 @@ input[type=submit] {
   border: 2px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box;
-  border-color: #025762;
+  border-color: #94421C;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #025762;
+  background-color: #B06E5D;
 	
 }
 
@@ -156,12 +159,12 @@ nav a {
 
 body {
     background-color:#86978B;
-    color:#E7DED9;
+    color: white;
     font-family: "sans-serif";
       }
 
 main {
-    color:navy;
+    color: #B06E5D;
     height: 100vh;
     
 }
@@ -200,6 +203,7 @@ figcaption {
 }
 footer {
   text-align: center;
+  color: #94421C;
 }
  footer.clear {
     clear: both;
@@ -208,12 +212,12 @@ footer {
 
 /* unvisited link */
 a:link {
-  color: #f974d1;
+  color: #B06E5D;
 }
 
 /* visited link */
 a:visited {
-  color: rgba(0, 0, 0, 0.899);
+  color: #D7BDA3;
 }
 
 /* mouse over link */
