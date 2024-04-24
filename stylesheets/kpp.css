@@ -111,49 +111,9 @@ nav a {
 } 
 
 
-.grid-container {
-  grid-auto-columns: 200px;
-  grid-auto-rows: 200px;
-  justify-content: space-between;
-  background-color: #2196F3;
-}
-.item1 {
-  grid-column: 1 / 1;
-  width: 100%;
-}
-.item2 {
-  grid-column: 1 / 1;
-  width: 100%;
-}
-.item3 {
-  grid-column: 1 / 1;
-  width: 100%;
-}
-.item4 {
-  grid-column: 1 / 1;
-  width: 100%;
-}
-.item5 {
-  grid-column: 1 / 1;
-  width: 100%;
-}
-.item6 {
-  grid-column: 1 / 1;
-  width: 100%;
-
-}
-.item8 {
-  grid-column: 1 /2;
-  width: 100%;
-}
-.item9 {
-  grid-column: 1 / 2;
-  width: 100%;
-}
-
 
 body {
-    background-color:#727B5F;
+    background-color:#4B7A8B;
     color:#B06E5D;
     font-family: "sans-serif";
       }
@@ -203,11 +163,8 @@ footer {
   margin-top: 20px;
   margin-bottom: 10px;
 }
- footer.clear {
-    clear: both;
-  }
 
-
+/****************************link stuff starts here ******************************/
 /* unvisited link */
 a:link {
   color: #B06E5D;
@@ -223,7 +180,8 @@ a:hover {
   color:rgba(245, 183, 132);
 }
 
-  
+  /****************************link stuff ends  here ******************************/
+
 .bullet_list {
   background-color: aquamarine;
   width: 100%;
