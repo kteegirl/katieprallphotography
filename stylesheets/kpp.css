@@ -200,6 +200,8 @@ figcaption {
 footer {
   text-align: center;
   color: #94421C;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
  footer.clear {
     clear: both;
