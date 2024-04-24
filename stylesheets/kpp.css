@@ -111,29 +111,27 @@ nav a {
 } 
 
 body {
-    background-color: #4B7A8B;
-    color: #B06E5D;
+    
+	background-color: #4B7A8B;
+    color: #ffffff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
 
-
 main {
-   
 	color: #B06E5D;
     height: 100vh;
-    
-
+}
 
 header 
     {
      
 	 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	
      background-repeat:no-repeat;
 	 background-position: right-top;
-	 min-height:30px;
+	 min-height:60px;
 	 margin-top: 5px;
 	 margin-bottom: 15px;
+	 background-color: #86978B;
 	  
 }
 h2 {
@@ -337,7 +335,7 @@ ul {
 
 
 
-/****************************************media screen stuff starts heres*********************************************/
+/****************************************media query for large screen starts heres*********************************************/
 
 @media screen and (min-width : 480px ){
   
@@ -356,6 +354,13 @@ ul {
 	 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
      background-color: #86978B;
   }
+	
+	  body {
+   background-color: #86978B;
+    color: white;
+    font-family: georgia;
+	}
+	
   .navcontainer {
       display: flex;
       justify-content: left;
@@ -413,18 +418,10 @@ ul {
   }
 
 
-  body {
 
-    background-color: #86978B;
-    color: white;
-    font-family: georgia;
+	
   }
 	
-	main {
-   
-	color: #B06E5D;
-    height: 100vh;
-	}
   h1 {
     color: snow;
   }
