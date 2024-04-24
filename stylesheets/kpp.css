@@ -2,7 +2,7 @@
 /*CSS Document*/
 /*Created by Katie Craven 1-28-2024*/
 
-/*begin Assignment 10 form css*/
+/**********************************begin form css**********************************/
 
 form {
 	background-color: #D7BDA3;
@@ -93,10 +93,7 @@ div.container {
 
 
 
-
-
-
-/*end form css*/
+/*********************************end form css*********************************************/
 
 
 .paragraph {
@@ -169,10 +166,11 @@ main {
 
 header 
     {
-     background-image: url("../images/kpplogo.jpg");
+     background-image: url("../images/kpplogo2.png");
+	 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
      background-repeat:no-repeat;
 	 background-position: right-top;
-	 min-height:50px;
+	 min-height:80px;
 	  
 }
 h2 {
@@ -223,7 +221,7 @@ a:hover {
   color:rgba(245, 183, 132);
 }
 
-    /*classes start here*/
+    /***********************************classes start here*********************************************/
 .bullet_list {
   background-color: aquamarine;
   width: 100%;
@@ -268,70 +266,89 @@ a:hover {
 
 }
 
-/*flex box stuff starts here*/
-.flex-container {
+/**************************************flex box stuff starts here*********************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 40px 5%;
+}
+
+.heading-text {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.heading-text span {
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+}
+
+/***************************************** Responsive image gallery rules begin here************************************************/
+
+.image-gallery {
   display: flex;
-  background: DodgerBlue;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.flex-container-item  {
-  width: 200px;
-  margin: 10px;
+.image-gallery > li {
+  flex-basis: 350px; /*width: 350px;*/
+  position: relative;
+  cursor: pointer;
+}
 
-  
+.image-gallery::after {
+  content: "";
+  flex-basis: 350px;
 }
-.flex-container-item-1 {
-  min-height: 100px;
-  
-}
-.flex-container-item-2 {
-  min-height: 100px;
- 
-}
-.flex-conatiner-item-3 {
-  min-height: 100px;
 
+.image-gallery li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
 }
-/*flex box stuff ends here*/
-/*second flex box starts here*/
-.flex-container-sponsors {
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(57, 57, 57, 0.502);
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0.2s 0.1s ease-in-out;
+  color: #fff;
+  border-radius: 5px;
+  /* center overlay text */
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.flex-container-item-sponsors  {
-  width: 200px;
-  margin: 10px;
-
-  
-}
-.flex-container-item-sponsors-1 {
-  min-height: 100px;
+/* hover */
+.image-gallery li:hover .overlay {
+  transform: scale(1);
 }
 
-/*second flex box ends here*/
-/*third flex box stuff starts here*/
-.navcontainer {
-  display: flex;
-  justify-content: left;
-  flex-direction: row;
-  height: 10vh;
 
-}
+/********************************flex box stuff ends here********************************/
 
-.flex-container-nav-item  {
-  width: 200px;
-  margin: 10px;
-  
-}
 
-/*third flex box ends here*/
-/*fourth div class starts here*/
 
 .main-wrapper {
   height: 100vh;
