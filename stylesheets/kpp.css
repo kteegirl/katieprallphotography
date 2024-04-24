@@ -115,7 +115,7 @@ nav a {
 body {
     background-color:#4B7A8B;
     color:#B06E5D;
-    font-family: "sans-serif";
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
 
 main {
@@ -131,8 +131,8 @@ header
      background-repeat:no-repeat;
 	 background-position: right-top;
 	 min-height:30px;
-	margin-top: 5px;
-	margin-bottom: 15px;
+	 margin-top: 5px;
+	 margin-bottom: 15px;
 	  
 }
 h2 {
@@ -414,7 +414,7 @@ ul {
 
   body {
 
-    background-color: #86978B;
+   
     color: white;
     font-family: georgia;
   }
