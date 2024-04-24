@@ -166,11 +166,11 @@ main {
 
 header 
     {
-     background-image: url("../images/kpplogo.jpg");
+     
 	 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
      background-repeat:no-repeat;
 	 background-position: right-top;
-	 min-height:80px;
+	 min-height:30px;
 	  
 }
 h2 {
@@ -383,7 +383,7 @@ ul {
 	color: #94421c;
 	padding: 10px;
 	font-family: sans-serif;
-	width: 100%;
+	width: 60%;
 }
 	
 	header {
