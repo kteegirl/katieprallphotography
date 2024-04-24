@@ -96,8 +96,7 @@ div.container {
 
 
 
-
-/*end assignment 10 form css*/
+/*end form css*/
 
 
 .paragraph {
@@ -110,7 +109,6 @@ nav a {
   display: inline;
   margin: 5px;
   margin-top: 5px;
-  background-color: #34404d;
   text-align: center;
   font-size: 1.1em;
 } 
@@ -159,7 +157,7 @@ nav a {
 
 body {
     background-color:#86978B;
-    color: white;
+    color:#B06E5D;
     font-family: "sans-serif";
       }
 
@@ -171,11 +169,11 @@ main {
 
 header 
     {
-     background-image: url("../images/kpplogo.png");
-     background-color:#86978B;
-	   background-repeat:no-repeat;
-	   background-position: right top;
+     background-image: url("../images/kpplogo.jpg");
+     background-repeat:no-repeat;
+	   background-position: right;
 	   min-height:50px;
+	  
 }
 h2 {
   text-align: center;
@@ -385,7 +383,7 @@ a:hover {
 @media screen and (min-width: 480px) {
   
   header {
-     background-image: url("../images/kpplogo.png");
+     background-image: url("../images/kpplogo.jpg");
 	   background-position: right top;
 	   min-height: 100px;
      background-color: #86978B;
