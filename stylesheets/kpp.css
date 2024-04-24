@@ -171,8 +171,8 @@ header
     {
      background-image: url("../images/kpplogo.jpg");
      background-repeat:no-repeat;
-	   background-position: right;
-	   min-height:50px;
+	 background-position: right-top;
+	 min-height:50px;
 	  
 }
 h2 {
