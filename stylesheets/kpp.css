@@ -9,7 +9,7 @@ form {
 	color: #94421c;
 	padding: 10px;
 	font-family: sans-serif;
-	width: 40%;
+	width: 80%;
 }
 
 input[type=text], select {
@@ -93,7 +93,7 @@ div.container {
 
 
 
-/*********************************end form css*********************************************/
+/****************************************end form css*********************************************/
 
 
 .paragraph {
@@ -166,7 +166,7 @@ main {
 
 header 
     {
-     background-image: url("../images/kpplogo2.png");
+     background-image: url("../images/kpplogo.jpg");
 	 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
      background-repeat:no-repeat;
 	 background-position: right-top;
@@ -221,7 +221,7 @@ a:hover {
   color:rgba(245, 183, 132);
 }
 
-    /***********************************classes start here*********************************************/
+  
 .bullet_list {
   background-color: aquamarine;
   width: 100%;
@@ -350,35 +350,14 @@ ul {
 
 
 
-.main-wrapper {
-  height: 100vh;
-  display: flex;
-  overflow: scroll;
-  padding: 1em;
-}
-* {
-  box-sizing: border-box;
-}
-
-.sidebar {
-  height: 100vh;
-}
-/*fourth div class ends here*/
-
 .image_circle
     {
       border-radius: 50%;
       text-align: center;
      }
-      
-#myHeader {
-      font-family:'Brush Script MT','cursive';
-      font-size: 4em;
-    }
-/*classes are here*/
+     
 
-
-
+/****************************************list stuff starts heres*********************************************/
 .dl_lists {
   background-color: blueviolet;
   width: 300px;
@@ -391,17 +370,27 @@ ul {
   clear:both;
 }
 
-.large_italics {
-  font-size: 1.2em;
-  font-style: italic;
-}
+/****************************************list stuff ends heres*********************************************/
+
+
+
+/****************************************media screen stuff starts heres*********************************************/
 
 @media screen and (min-width: 480px) {
   
-  header {
-     background-image: url("../images/kpplogo.jpg");
-	   background-position: right top;
-	   min-height: 100px;
+  form {
+	background-color: #D7BDA3;
+	color: #94421c;
+	padding: 10px;
+	font-family: sans-serif;
+	width: 50%;
+}
+	
+	header {
+     background-image: url("../images/kpplogo2.png");
+	 background-position: right top;
+	 min-height: 200px;
+	 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
      background-color: #86978B;
   }
   .navcontainer {
@@ -491,46 +480,7 @@ ul {
   clear:both
   
 }
-/* Create two equal columns that floats next to each other */
-.columnleft {
-  float: left;
-  width: 40%;
-  padding: 5px;
-  
 
-}
-
-.columnright {
-  float: right;
-  width: 50%;
-  padding: 5px;
-
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 5px;
-}
-
-.left {
-  width: 30%;
-}
-
-.right {
-  width: 70%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
 /*example 
@@ -543,3 +493,5 @@ ul {
   border-style: solid;
   padding:
 */
+
+/****************************************media screen stuff ends heres*********************************************/
