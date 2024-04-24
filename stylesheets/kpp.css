@@ -114,12 +114,13 @@ nav a {
 
 body {
     background-color: #4B7A8B;
-    color:#B06E5D;
+    color: #B06E5D;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
 
 main {
     color: #B06E5D;
+	background-color: #4B7A8B;
     height: 100vh;
     
 }
@@ -128,6 +129,7 @@ header
     {
      
 	 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	
      background-repeat:no-repeat;
 	 background-position: right-top;
 	 min-height:30px;
