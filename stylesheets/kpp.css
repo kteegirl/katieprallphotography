@@ -100,6 +100,8 @@ div.container {
 	text-align: center;
 	text-wrap: wrap;
 	color:#E7DED9;
+	margin-left: 100px;
+	margin-right: 100px;
 	
 }
 nav a { 
@@ -138,6 +140,11 @@ h2 {
   text-align: center;
 }
 
+img2 {
+	width: 300%;
+	text-align:center;
+}
+
 img {
       width: 100%;
       min-height: 50px;
@@ -145,6 +152,10 @@ img {
      
       }
 video {
+	width: 100%;
+	height: auto;}
+
+iframe {
 	width: 100%;
 	height: auto;}
 
@@ -167,7 +178,9 @@ footer {
   margin-bottom: 10px;
 }
 
-
+p_center {
+	text-align:center
+}
 
 /****************************link stuff starts here ******************************/
 /* unvisited link */
