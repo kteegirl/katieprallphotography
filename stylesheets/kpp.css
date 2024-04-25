@@ -10,6 +10,10 @@ form {
 	padding: 10px;
 	font-family: sans-serif;
 	width: 80%;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin: 0 auto;
+	
 }
 
 input[type=text], select {
@@ -89,6 +93,7 @@ div.container {
   border-radius: 5px;
   background-color: #4B7A8B;
   padding: 20px;
+  margin: 0 auto; 
 }
 
 
@@ -110,6 +115,8 @@ nav a {
   margin-top: 5px;
   text-align: center;
   font-size: 1.1em;
+  margin-left: 15px;
+  margin-right: 15px;
 } 
 
 body {
@@ -135,6 +142,11 @@ header
 	 margin-bottom: 15px;
 	 background-color: #86978B;
 	  
+}
+
+h1 {
+	margin-left: 15px;
+	margin-right: 15px;
 }
 h2 {
   text-align: center;
@@ -178,8 +190,9 @@ footer {
   margin-bottom: 10px;
 }
 
-p_center {
-	text-align:center
+p {
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 /****************************link stuff starts here ******************************/
@@ -360,6 +373,7 @@ ul {
 	padding: 10px;
 	font-family: sans-serif;
 	width: 50%;
+	margin: 0 auto;
 }
 	
 	header {
