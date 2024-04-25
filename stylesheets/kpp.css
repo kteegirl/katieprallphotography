@@ -379,7 +379,7 @@ ul {
 
 
 
-/****************************************media query for large screen starts heres*********************************************/
+/***********************************media query for large screen starts heres*************************************/
 
 @media screen and (min-width : 480px ){
   
@@ -400,7 +400,7 @@ ul {
 	  
 }
 	
-	header {
+header {
      background-image: url("../images/kpplogo2.png");
 	 background-position: right top;
 	 min-height: 90px;
@@ -409,13 +409,25 @@ ul {
 	 margin-right: 15px;
   }
 	
-	  body {
+ body {
    background-color: #86978B;
     color: white;
     font-family: georgia;
 	}
 	
-  .navcontainer {
+.indented-text {
+  text-indent: 60px; /* Set the indentation to 20 pixels */
+}
+	
+.paragraph {
+	text-align: center;
+	text-wrap: wrap;
+	color:#E7DED9;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+	}
+ .navcontainer {
       display: flex;
       justify-content: left;
       flex-direction: column;
