@@ -214,15 +214,15 @@ p {
 }
 
 
-/****************************link stuff starts here ******************************/
+/****************************link pseudoclass starts here ******************************/
 /* unvisited link */
 a:link {
-  color: #B06E5D;
+  color: #D7BDA3;
 }
 
 /* visited link */
 a:visited {
-  color: #D7BDA3;
+  color: #B06E5D;
 }
 
 /* mouse over link */
@@ -230,7 +230,7 @@ a:hover {
   color:rgba(245, 183, 132);
 }
 
-  /****************************link stuff ends  here ******************************/
+  /****************************link pseudoclass  ends  here ******************************/
 
 .bullet_list {
   background-color: aquamarine;
