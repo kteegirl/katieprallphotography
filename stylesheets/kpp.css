@@ -144,7 +144,9 @@ img {
       text-align: center;
      
       }
-
+video {
+	width: 100%;
+	height: auto;}
 
 figure {
         text-align: center;
