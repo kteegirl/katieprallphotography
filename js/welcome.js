@@ -3,6 +3,6 @@
 
 
 function myFunction() {
-  alert("Welcome pets of all ages, sizes and skills");
+  alert("I'm so glad you're here!!! - Katie Prall");
 }
 
